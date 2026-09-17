@@ -1,0 +1,13 @@
+{
+  "name": "GGpay - Flutter Development",
+  "image": "ghcr.io/cirrusci/flutter:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.flutter",
+        "Dart-Code.dart-code"
+      ]
+    }
+  },
+  "postCreateCommand": "flutter doctor"
+}
